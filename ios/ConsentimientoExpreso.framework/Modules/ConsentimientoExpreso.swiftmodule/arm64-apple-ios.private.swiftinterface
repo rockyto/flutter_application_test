@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ConsentimientoExpreso
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+@_exported import ConsentimientoExpreso
+import Foundation
+import SafariServices
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol CEDelegate {
+  @objc func ceStatus(isFinished: Swift.Bool, step: Swift.String)
+  @objc optional func ceGetData(data: Swift.String)
+  @objc optional func ceFiles(data: Swift.String)
+}
+public enum Environment : Swift.Int {
+  case dev
+  case qa
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CEWebView : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var uuidTrx: Swift.String
+  @_Concurrency.MainActor(unsafe) public var uuidClient: Swift.String
+  @_Concurrency.MainActor(unsafe) public var idLender: Swift.String
+  @_Concurrency.MainActor(unsafe) public var url: Swift.String
+  @_Concurrency.MainActor(unsafe) public var environment: ConsentimientoExpreso.Environment?
+  @_Concurrency.MainActor(unsafe) public var delegate: (any ConsentimientoExpreso.CEDelegate)?
+  @_Concurrency.MainActor(unsafe) public var isWebViewLaunched: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var isFlutter: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func getData()
+  @_Concurrency.MainActor(unsafe) public func getDocuments()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension ConsentimientoExpreso.CEWebView : SafariServices.SFSafariViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+}
+extension ConsentimientoExpreso.Environment : Swift.Equatable {}
+extension ConsentimientoExpreso.Environment : Swift.Hashable {}
+extension ConsentimientoExpreso.Environment : Swift.RawRepresentable {}

@@ -1,0 +1,2995 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConsentimientoExpreso",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "ConsentimientoExpreso"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ConsentimientoExpreso"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CEDelegate",
+        "printedName": "CEDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ceStatus",
+            "printedName": "ceStatus(isFinished:step:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate(im)ceStatusWithIsFinished:step:",
+            "mangledName": "$s21ConsentimientoExpreso10CEDelegateP8ceStatus10isFinished4stepySb_SStF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.CEDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.CEDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ceGetData",
+            "printedName": "ceGetData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate(im)ceGetDataWithData:",
+            "mangledName": "$s21ConsentimientoExpreso10CEDelegateP9ceGetData4dataySS_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.CEDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.CEDelegate>",
+            "protocolReq": true,
+            "objc_name": "ceGetDataWithData:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ceFiles",
+            "printedName": "ceFiles(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate(im)ceFilesWithData:",
+            "mangledName": "$s21ConsentimientoExpreso10CEDelegateP7ceFiles4dataySS_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.CEDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.CEDelegate>",
+            "protocolReq": true,
+            "objc_name": "ceFilesWithData:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate",
+        "mangledName": "$s21ConsentimientoExpreso10CEDelegateP",
+        "moduleName": "ConsentimientoExpreso",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Environment",
+        "printedName": "Environment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentimientoExpreso.Environment.Type) -> ConsentimientoExpreso.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "ConsentimientoExpreso.Environment",
+                    "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentimientoExpreso.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "ConsentimientoExpreso.Environment",
+                        "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ConsentimientoExpreso11EnvironmentO3devyA2CmF",
+            "mangledName": "$s21ConsentimientoExpreso11EnvironmentO3devyA2CmF",
+            "moduleName": "ConsentimientoExpreso"
+          },
+          {
+            "kind": "Var",
+            "name": "qa",
+            "printedName": "qa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentimientoExpreso.Environment.Type) -> ConsentimientoExpreso.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "ConsentimientoExpreso.Environment",
+                    "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentimientoExpreso.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "ConsentimientoExpreso.Environment",
+                        "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ConsentimientoExpreso11EnvironmentO2qayA2CmF",
+            "mangledName": "$s21ConsentimientoExpreso11EnvironmentO2qayA2CmF",
+            "moduleName": "ConsentimientoExpreso"
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentimientoExpreso.Environment.Type) -> ConsentimientoExpreso.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "ConsentimientoExpreso.Environment",
+                    "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentimientoExpreso.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "ConsentimientoExpreso.Environment",
+                        "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ConsentimientoExpreso11EnvironmentO4prodyA2CmF",
+            "mangledName": "$s21ConsentimientoExpreso11EnvironmentO4prodyA2CmF",
+            "moduleName": "ConsentimientoExpreso"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ConsentimientoExpreso.Environment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "ConsentimientoExpreso.Environment",
+                    "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ConsentimientoExpreso11EnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s21ConsentimientoExpreso11EnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "ConsentimientoExpreso",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso11EnvironmentO8rawValueSivp",
+            "mangledName": "$s21ConsentimientoExpreso11EnvironmentO8rawValueSivp",
+            "moduleName": "ConsentimientoExpreso",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso11EnvironmentO8rawValueSivg",
+                "mangledName": "$s21ConsentimientoExpreso11EnvironmentO8rawValueSivg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ConsentimientoExpreso11EnvironmentO",
+        "mangledName": "$s21ConsentimientoExpreso11EnvironmentO",
+        "moduleName": "ConsentimientoExpreso",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CEWebView",
+        "printedName": "CEWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "safariController",
+            "printedName": "safariController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "SafariServices.SFSafariViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFSafariViewController",
+                    "printedName": "SafariServices.SFSafariViewController",
+                    "usr": "c:objc(cs)SFSafariViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "SafariServices.SFSafariViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SFSafariViewController",
+                        "printedName": "SafariServices.SFSafariViewController",
+                        "usr": "c:objc(cs)SFSafariViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "SafariServices.SFSafariViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SFSafariViewController",
+                        "printedName": "SafariServices.SFSafariViewController",
+                        "usr": "c:objc(cs)SFSafariViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC16safariControllerSo08SFSafaridF0CSgvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uuidTrx",
+            "printedName": "uuidTrx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7uuidTrxSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uuidClient",
+            "printedName": "uuidClient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC10uuidClientSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC10uuidClientSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC10uuidClientSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC10uuidClientSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC10uuidClientSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC10uuidClientSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC10uuidClientSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC10uuidClientSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idLender",
+            "printedName": "idLender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC8idLenderSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8idLenderSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8idLenderSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8idLenderSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8idLenderSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8idLenderSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8idLenderSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8idLenderSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC3urlSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC3urlSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC3urlSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC3urlSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC3urlSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC3urlSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC3urlSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC3urlSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ConsentimientoExpreso.Environment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "ConsentimientoExpreso.Environment",
+                    "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.Environment?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "ConsentimientoExpreso.Environment",
+                        "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.Environment?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "ConsentimientoExpreso.Environment",
+                        "usr": "s:21ConsentimientoExpreso11EnvironmentO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC11environmentAA11EnvironmentOSgvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ConsentimientoExpreso.CEDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CEDelegate",
+                    "printedName": "ConsentimientoExpreso.CEDelegate",
+                    "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.CEDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CEDelegate",
+                        "printedName": "ConsentimientoExpreso.CEDelegate",
+                        "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.CEDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CEDelegate",
+                        "printedName": "ConsentimientoExpreso.CEDelegate",
+                        "usr": "c:@M@ConsentimientoExpreso@objc(pl)CEDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8delegateAA10CEDelegate_pSgvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceManager",
+                "printedName": "ConsentimientoExpreso.ServiceManager",
+                "usr": "c:@M@ConsentimientoExpreso@objc(cs)ServiceManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC7managerAA14ServiceManagerCvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7managerAA14ServiceManagerCvp",
+            "moduleName": "ConsentimientoExpreso",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceManager",
+                    "printedName": "ConsentimientoExpreso.ServiceManager",
+                    "usr": "c:@M@ConsentimientoExpreso@objc(cs)ServiceManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC7managerAA14ServiceManagerCvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7managerAA14ServiceManagerCvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWebViewLaunched",
+            "printedName": "isWebViewLaunched",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05isWebD8LaunchedSbvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFlutter",
+            "printedName": "isFlutter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC9isFlutterSbvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9isFlutterSbvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9isFlutterSbvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9isFlutterSbvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9isFlutterSbvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9isFlutterSbvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9isFlutterSbvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9isFlutterSbvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timerTest",
+            "printedName": "timerTest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9timerTestSo7NSTimerCSgvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isGettingData",
+            "printedName": "isGettingData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC13isGettingDataSbvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpoint",
+            "printedName": "endpoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC8endpointSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8endpointSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8endpointSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8endpointSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8endpointSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8endpointSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC8endpointSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC8endpointSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "envMethod",
+            "printedName": "envMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC9envMethodSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9envMethodSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9envMethodSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9envMethodSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9envMethodSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9envMethodSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC9envMethodSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC9envMethodSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC4hostSSvp",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC4hostSSvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC4hostSSvg",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC4hostSSvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC4hostSSvs",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC4hostSSvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso9CEWebViewC4hostSSvM",
+                "mangledName": "$s21ConsentimientoExpreso9CEWebViewC4hostSSvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)viewDidLoad",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC11viewDidLoadyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)viewWillAppear:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC14viewWillAppearyySbF",
+            "moduleName": "ConsentimientoExpreso",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkCameraPermission",
+            "printedName": "checkCameraPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC21checkCameraPermissionyyF",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC21checkCameraPermissionyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPolling",
+            "printedName": "startPolling()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC12startPollingyyF",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC12startPollingyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveStatus",
+            "printedName": "retrieveStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)retrieveStatus",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC14retrieveStatusyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getData",
+            "printedName": "getData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC7getDatayyF",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7getDatayyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDocuments",
+            "printedName": "getDocuments()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso9CEWebViewC12getDocumentsyyF",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC12getDocumentsyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)close",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC5closeyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeView",
+            "printedName": "closeView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)closeView",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05closeD0yyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeViewLeftSwipe",
+            "printedName": "closeViewLeftSwipe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)closeViewLeftSwipe",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC05closeD9LeftSwipeyyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CEWebView",
+                "printedName": "ConsentimientoExpreso.CEWebView",
+                "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)initWithNibName:bundle:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "ConsentimientoExpreso",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ConsentimientoExpreso.CEWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CEWebView",
+                    "printedName": "ConsentimientoExpreso.CEWebView",
+                    "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView(im)initWithCoder:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ConsentimientoExpreso",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewControllerDidFinish",
+            "printedName": "safariViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConsentimientoExpreso@objc(cs)CEWebView(im)safariViewControllerDidFinish:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC06safariD19ControllerDidFinishyySo08SFSafaridF0CF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "objc_name": "safariViewControllerDidFinish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "returnResponse",
+            "printedName": "returnResponse(dictionary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConsentimientoExpreso@objc(cs)CEWebView(im)returnResponseWithDictionary:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC14returnResponse10dictionaryySDySSypG_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "objc_name": "returnResponseWithDictionary:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "returnStringResponse",
+            "printedName": "returnStringResponse(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConsentimientoExpreso@objc(cs)CEWebView(im)returnStringResponseWithResponse:",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC20returnStringResponse8responseySS_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "objc_name": "returnStringResponseWithResponse:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConsentimientoExpreso@objc(cs)CEWebView(im)error",
+            "mangledName": "$s21ConsentimientoExpreso9CEWebViewC5erroryyF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "objc_name": "error",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ConsentimientoExpreso@objc(cs)CEWebView",
+        "mangledName": "$s21ConsentimientoExpreso9CEWebViewC",
+        "moduleName": "ConsentimientoExpreso",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ServiceManagerDelegate",
+            "printedName": "ServiceManagerDelegate",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate",
+            "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConsentimientoExpreso",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConsentimientoExpreso"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServiceManagerDelegate",
+        "printedName": "ServiceManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "returnResponse",
+            "printedName": "returnResponse(dictionary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate(im)returnResponseWithDictionary:",
+            "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP14returnResponse10dictionaryySDySSypG_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "protocolReq": true,
+            "objc_name": "returnResponseWithDictionary:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "returnArrayResponse",
+            "printedName": "returnArrayResponse(array:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate(im)returnArrayResponseWithArray:",
+            "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP19returnArrayResponse5arrayySaySDySSypGG_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "protocolReq": true,
+            "objc_name": "returnArrayResponseWithArray:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "returnStringResponse",
+            "printedName": "returnStringResponse(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate(im)returnStringResponseWithResponse:",
+            "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP20returnStringResponse8responseySS_tF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "protocolReq": true,
+            "objc_name": "returnStringResponseWithResponse:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate(im)error",
+            "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP5erroryyF",
+            "moduleName": "ConsentimientoExpreso",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConsentimientoExpreso.ServiceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate",
+        "mangledName": "$s21ConsentimientoExpreso22ServiceManagerDelegateP",
+        "moduleName": "ConsentimientoExpreso",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServiceManager",
+        "printedName": "ServiceManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ConsentimientoExpreso.ServiceManagerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceManagerDelegate",
+                    "printedName": "ConsentimientoExpreso.ServiceManagerDelegate",
+                    "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.ServiceManagerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceManagerDelegate",
+                        "printedName": "ConsentimientoExpreso.ServiceManagerDelegate",
+                        "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ConsentimientoExpreso.ServiceManagerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceManagerDelegate",
+                        "printedName": "ConsentimientoExpreso.ServiceManagerDelegate",
+                        "usr": "c:@M@ConsentimientoExpreso@objc(pl)ServiceManagerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "ConsentimientoExpreso",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getDataCycle",
+            "printedName": "getDataCycle(uuid:trx:apikey:url:env:host:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso14ServiceManagerC12getDataCycle4uuid3trx6apikey3url3env4hostySS_S5StF",
+            "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC12getDataCycle4uuid3trx6apikey3url3env4hostySS_S5StF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFiles",
+            "printedName": "getFiles(parameters:apikey:uuid:trx:url:env:host:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ConsentimientoExpreso14ServiceManagerC8getFiles10parameters6apikey4uuid3trx3url3env4hostySDySSypG_S6StF",
+            "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC8getFiles10parameters6apikey4uuid3trx3url3env4hostySDySSypG_S6StF",
+            "moduleName": "ConsentimientoExpreso",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceManager",
+                "printedName": "ConsentimientoExpreso.ServiceManager",
+                "usr": "c:@M@ConsentimientoExpreso@objc(cs)ServiceManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ConsentimientoExpreso@objc(cs)ServiceManager(im)init",
+            "mangledName": "$s21ConsentimientoExpreso14ServiceManagerCACycfc",
+            "moduleName": "ConsentimientoExpreso",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ConsentimientoExpreso@objc(cs)ServiceManager",
+        "mangledName": "$s21ConsentimientoExpreso14ServiceManagerC",
+        "moduleName": "ConsentimientoExpreso",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1878,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1902,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2053,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2142,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigosanchez\/Documents\/iOS\/ConsentimientoExpresoP\/ConsentimientoExpreso\/CEWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2208,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

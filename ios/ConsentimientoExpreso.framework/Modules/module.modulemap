@@ -1,0 +1,11 @@
+framework module ConsentimientoExpreso {
+  umbrella header "ConsentimientoExpreso.h"
+  export *
+
+  module * { export * }
+}
+
+module ConsentimientoExpreso.Swift {
+  header "ConsentimientoExpreso-Swift.h"
+  requires objc
+}
